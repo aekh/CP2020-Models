@@ -14,4 +14,4 @@ Personal webpage: https://ekalexander.github.io
 
 # How to use the models?
 
-These models are "update-models", meaning that they require as input: previously known (sol_) and newly added (new_) data, as well as previous decisions (sol_) of previously known decision variables. The idea is to create an dynamic problem simulator (or from real observations) that iteratively calls an update-model to get the updated decisions.
+These models are "update-models", meaning that they require as input: previously known (sol_) and newly added (new_) data, as well as previous decisions (sol_) of previously known decision variables. The idea is to create a (separate from this) dynamic problem simulator (or from real observations) that iteratively calls an update-model to get the updated decisions.
